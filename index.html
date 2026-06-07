@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="SmartAqua - ML-driven water quality monitoring for aquaculture. SVM classification, 35% energy savings, real-time alerts for fish farmers.">
+    <meta name="author" content="Okoro Osahon">
+    <meta name="keywords" content="aquaculture, water quality, SVM, energy optimization, fish farming, IoT">
+    <meta name="theme-color" content="#0D5C46">
+    <title>SmartAqua | Aquaculture Water Quality Dashboard</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/favicon.png" alt="SmartAqua logo - water droplet with leaf" class="logo-icon" width="40" height="40">
+                <span class="logo-text">SmartAqua</span>
+            </div>
+            <nav class="nav" aria-label="Main navigation">
+                <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
+                <ul id="nav-menu" class="nav-menu" role="list">
+                    <li><a href="#" class="nav-link active" data-page="dashboard">Dashboard</a></li>
+                    <li><a href="#" class="nav-link" data-page="simulation">Simulation</a></li>
+                    <li><a href="#" class="nav-link" data-page="history">History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="main" role="main">
+        <div class="container">
+            <div id="app-root"></div>
+        </div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; 2026 SmartAqua | ML-Driven Energy Optimization for Aquaculture</p>
+            <p>Last updated: <span id="last-updated">--:--:--</span></p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
