@@ -34,7 +34,7 @@ export function renderDashboard() {
         </div>
         
         <div class="dashboard-grid" id="dashboard-grid">
-            ${POOLS.map(pool => `
+            ${PONDS.map(pool => `
                 <div class="card" id="card-${pool.id}" data-pool="${pool.id}">
                     <div class="card-header">
                         <h2 class="card-title">${pool.icon} ${pool.name}</h2>
